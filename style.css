@@ -7,27 +7,116 @@
 body {
     scroll-behavior: smooth;
     text-rendering:optimizeSpeed;
+    
 }
 img {
     display: block;
     max-width: 100%;
 }
 .container {
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
 }
 .nav {
     padding-top: 45px;
     padding-bottom: 95px;
+    gap:650px;
+}
+
+.home {
+    font-family: Gilroy-Semibold;
+    font-style: normal;
+    color: #F25822;
+    font-size: 14px; 
+    line-height: 16px; 
+}
+.a {
+    font-family: Gilroy-Semibold;
+    font-style: normal;
+    color: black;
+    font-size: 14px; 
+    line-height: 16px;
+}
+.Features {
+    font-family: Gilroy-Semibold;
+    border: none;
+    font-size: 14px;
+    color: black;
+}
+.menu {
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+.main {
+    display: flex;
+    gap: 41px;
+   
 }
 .title {
     margin-bottom: 17px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: 70px;
 }
-button {
+.text {
+    font-family: Gilroy-Medium;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    width: 466px;
+}
+.but {
+    display: flex;
+    gap: 52px;
+}
+.start {
     padding: 15px 36px;
     margin-top: 52px;
+    font-family: Gilroy-Bold ;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+    background-color: #F25822;
+    border: none;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    color: #FFFFFF
+}
+.video {
+    padding: 15px 36px;
+    margin-top: 52px;
+    font-family: Gilroy-Bold ;
+    font-size: 15px;
+    line-height: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #FFFFFF;
+    color: #AAAAAA;
+    
 }
 .footer {
+    margin-top: 162px;
     padding-top: 97px;
     padding-bottom: 96px ;
+
+}
+.foot {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.woff2);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Medium.woff2);
+}
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(/fonts/Gilroy-Semibold.woff2);
 }
